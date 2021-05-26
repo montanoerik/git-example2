@@ -1,0 +1,13 @@
+---
+title: "Diamondsfile2"
+author: "Erik M"
+date: "5/26/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+ select(price, color, x)
+```
